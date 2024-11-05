@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #2c3e50;
+    background-color: #ecf0f1;
+    margin: 0;
+}
+
+/* Navbar Styles */
+#header-nav {
+    background-color: #2980b9;
+    border: none;
+    border-radius: 0;
+}
+
+.navbar-brand h1 {
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+    font-size: 1em;
+    margin: 0;
+    padding: 0 0 15px;
+}
+
+.navbar-toggle {
+    margin-top: 15px;
+    border-color: #fff;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+#nav-list {
+    background-color: #3498db;
+}
+
+#nav-list .nav > li > a {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#nav-list .nav > li > a:hover {
+    background-color: #2980b9;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #fff;
+}
+
+/* Page Heading */
+#page-heading {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: #2980b9;
+}
+
+/* Section Styles */
+#main-content h3 {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    color: #2980b9;
+}
+
+#appetizers-section, #main-course-section, #desserts-section {
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 60px;
+    box-shadow: 0 0 10px #bdc3c7;
+}
+
+#appetizers-section p, #main-course-section p, #desserts-section p {
+    text-align: justify;
+    line-height: 1.6;
+    color: #7f8c8d;
+}
+
+/* Responsive Adjustments */
+@media (min-width: 992px) {
+    .navbar-toggle {
+        display: none;
+    }
+    #nav-list {
+        display: none !important;
+    }
+}
