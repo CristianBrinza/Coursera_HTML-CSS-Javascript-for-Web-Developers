@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0e6d6;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #5a3e2b;
+    font-size: 32px;
+    padding: 20px 0;
+}
+
+section {
+    border: 1px solid #5a3e2b;
+    background-color: #e8d0b0;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+section > h2 {
+    float: right;
+    background-color: #a67b5b;
+    color: #ffffff;
+    margin: 0;
+    width: 240px;
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 22px;
+    font-weight: bold;
+    height: 50px;
+    padding-top: 10px;
+    border-bottom: 1px solid #5a3e2b;
+    border-left: 1px solid #5a3e2b;
+}
+
+section.eiffel > h2 {
+    background-color: #8b6f47;
+}
+
+section.statue-liberty > h2 {
+    background-color: #6f4b2f;
+}
+
+section.great-wall > h2 {
+    background-color: #705438;
+}
+
+section > p {
+    padding-top: 60px;
+    line-height: 1.6;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Desktop view options */
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        width: 33.33%;
+    }
+}
+
+/* Tablet view options */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+        width: 50%;
+    }
+}
+
+/* Mobile view options */
+
+@media (max-width: 767px) {
+    .col-sm-12 {
+        width: 100%;
+    }
+}
