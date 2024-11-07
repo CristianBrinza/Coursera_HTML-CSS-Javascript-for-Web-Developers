@@ -1,1 +1,0 @@
-## Demo here -> [link](https://cristianbrinza.github.io/Coursera_HTML-CSS-Javascript-for-Web-Developers/module2-solution/index.html)
